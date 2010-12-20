@@ -14,4 +14,5 @@ project from scratch:
     $ cd mydomain.com
     $ git init
 
-See the Nesta docs for more information: http://effectif.com/nesta
+See the Nesta docs for more information:
+[http://effectif.com/nesta](http://effectif.com/nesta)
