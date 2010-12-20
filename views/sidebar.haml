@@ -1,0 +1,39 @@
+#sidebar
+  .freelancing
+    %h2 Freelancing
+
+    %p
+      I'll be available for Ruby, Python or JavaScript work from
+      January 2011.
+    %p
+      If you're interested, or would like to chat about what you need,
+      please
+      = succeed "." do
+        %a{ :href => "mailto:graham@effectif.com" } get in touch
+
+  %h2 Projects
+  %ul.menu
+    %li
+      %a{ :href => "/nesta" } Nesta CMS
+    %li
+      %a{ :href => "http://www.quizthemarket.com" } Quiz the Market
+    %li
+      %a{ :href => "/projects" } Recent software
+    %li
+      %a{ :href => "http://github.com/gma", :class => "github" } My github page
+
+  = haml :categories, :layout => false
+  = haml :feed, :layout => false
+
+  %h2 About Effectif
+
+  .bio
+    :markdown
+      Effectif is the home of [Graham Ashton](http://grahamashton.net),
+      a freelance developer living in London.
+
+  %p
+    %a{ :href => "http://www.twitter.com/grahamashton" }
+      %img{ :src => "http://twitter-badges.s3.amazonaws.com/follow_me-c.png", :alt => "Follow grahamashton on Twitter" }
+
+  = haml :social, :layout => false
