@@ -1,6 +1,5 @@
-set :application, "nesta"
-set :repository, "git://github.com/gma/nesta.git"
-set :revision, "origin/effectif"
+set :application, "effectif.com"
+set :repository, "git://github.com/gma/effectif.com.git"
 set :domain, "fig.effectif.com"
 set :deploy_to, "/var/apps/#{application}"
 
