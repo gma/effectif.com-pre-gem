@@ -8,7 +8,7 @@ author:
   uri: http://effectif.com
   email: graham@effectif.com
 
-theme: slate
+# theme: slate
 
 disqus_short_name: effectif
 
