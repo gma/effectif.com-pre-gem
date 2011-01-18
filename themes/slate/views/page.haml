@@ -1,10 +1,13 @@
 .breadcrumb
-  %a{ :href => "/" } Home
-  &gt;
-  - if @page.parent
-    %a{ :href => @page.parent.abspath }= @page.parent.heading
+  - if request.path == '/'
+    Home
+  - else
+    %a{ :href => "/" } Home
     &gt;
-  = @page.heading
+    - if @page.parent && (@page.parent.abspath != '/')
+      %a{ :href => @page.parent.abspath }= @page.parent.heading || 'Home'
+      &gt;
+    = @page.heading
 
 #content
   - if @page.date
