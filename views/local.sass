@@ -1,4 +1,36 @@
-$primary: #2f5086
+@import "mixins.sass"
+
+$link-color: #3F63DA
+$hover-link-color: lighten($link-color, 15%)
+$nav-link-color: desaturate($link-color, 55%)
+
+code
+  @include adjust-font-size(0.95, 0, 0)
+
+#sidebar
+  h1
+    @include adjust-font-size(1, 1, 0)
+  & > h1:first-child
+    @include adjust-font-size(1, 2, 0)
+
+  p
+    color: #999
+
+  div.twitter
+    padding-bottom: 5px
+    a
+      border-bottom: none
+
+  ul.menu
+    list-style: none
+
+    a
+      color: $nav-link-color
+      border-bottom-color: #fff
+    &:hover a
+      color: $link-color
+    a:hover
+      color: $hover-link-color
 
 hr
   margin-bottom: 1.5em
@@ -17,7 +49,7 @@ a.button
   font-size: 90%
   text-decoration: none
   &:hover
-    background-color: $primary - #111
+    background-color: #1f4076
 
 div#content
   ul.browser-toolbar
