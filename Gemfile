@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'nesta', '0.9.5'
 
+gem 'thin'
 gem 'vlad', '2.1.0'
 gem 'vlad-git', '2.2.0'
 
