@@ -7,7 +7,7 @@ GEM
     haml (3.1.2)
     maruku (0.6.0)
       syntax (>= 1.0.0)
-    nesta (0.9.5)
+    nesta (0.9.9)
       RedCloth (~> 4.2)
       haml (~> 3.1)
       maruku (>= 0.6.0)
@@ -43,7 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nesta (= 0.9.5)
+  nesta (= 0.9.9)
   rack (= 1.2.3)
   thin
   vlad (= 2.1.0)

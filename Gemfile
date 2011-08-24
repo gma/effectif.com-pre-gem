@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'nesta', '0.9.5'
+gem 'nesta', '0.9.9'
 gem 'rack', '1.2.3'
 
 gem 'thin'
