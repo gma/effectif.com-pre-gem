@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'nesta', '0.9.9'
 gem 'rack', '1.2.3'
+gem 'rack-codehighlighter', :require => 'rack/codehighlighter'
+gem 'coderay'
 
 gem 'thin'
 gem 'vlad', '2.1.0'
